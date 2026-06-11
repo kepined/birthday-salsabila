@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background:linear-gradient(
+        180deg,
+        #ffd6e8,
+        #ffeef7
+    );
+    overflow-x:hidden;
+}
+
+.card{
+    max-width:420px;
+    margin:auto;
+    padding:20px;
+    text-align:center;
+}
+
+h1{
+    color:#ff4d94;
+}
+
+h2{
+    color:#d81b60;
+}
+
+.slider{
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.slides{
+    display:flex;
+    transition:.5s;
+}
+
+.slides img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    flex-shrink:0;
+}
+
+.love-btn{
+    margin-top:20px;
+    border:none;
+    background:#ff5fa2;
+    color:white;
+    padding:14px 24px;
+    border-radius:999px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.letter{
+    display:none;
+    margin-top:20px;
+    background:white;
+    padding:20px;
+    border-radius:20px;
+    line-height:1.8;
+}
+
+.petal{
+    position:fixed;
+    top:-50px;
+    animation:fall linear forwards;
+    font-size:20px;
+}
+
+@keyframes fall{
+    to{
+        transform:translateY(110vh) rotate(360deg);
+    }
+}
