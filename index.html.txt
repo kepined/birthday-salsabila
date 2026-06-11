@@ -1,0 +1,41 @@
+<div class="petals"></div>
+
+<div id="confetti"></div>
+
+<div class="card">
+    <h1>🎂 Happy Birthday</h1>
+    <h2>Salsabila 💖</h2>
+
+    <div class="slider">
+        <div class="slides" id="slides">
+            <img src="foto1.jpeg">
+            <img src="foto2.jpeg">
+            <img src="foto3.jpeg">
+        </div>
+    </div>
+
+    <button class="love-btn" onclick="openLetter()">
+        💌 Buka Surat
+    </button>
+
+    <div class="letter" id="letter">
+        <p>
+            Selamat ulang tahun sayang,
+            semoga harapan-harapanmu di usia kali ini dan yang sebelumnya
+            bisa terwujud.
+
+            Panjang umur, sehat selaluuu.
+
+            Makasih udah hadir dan jadi bagian dari hidupku.
+
+            I love you sayangg ❤️
+
+            <br><br>
+            - Kepin
+        </p>
+    </div>
+
+    <audio controls autoplay loop>
+        <source src="jamrud.mp3">
+    </audio>
+</div>
